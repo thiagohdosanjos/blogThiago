@@ -8,6 +8,7 @@ import { Tema } from '../model/Tema';
   providedIn: 'root'
 })
 export class TemaService {
+  getByNomeTema: any;
 
   constructor(private http: HttpClient) { }
 
